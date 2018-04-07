@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+//option java_multiple_files = true;
+//option java_package = "io.grpc.examples.helloworld";
+//option java_outer_classname = "HelloWorldProto";
+
+package shot;
+
+// The greeting service definition.
+service Tank {
+  // Sends a greeting
+  rpc ShotOut (TakeRequest) returns (TakeReply) {}
+}
+
+// The request message containing the user's name.
+message TakeRequest {
+    string name = 1;
+    uint32 age = 2;
+}
+
+// The response message containing the greetings
+message TakeReply {
+  string name = 1;
+  uint32 age = 2;
+}
