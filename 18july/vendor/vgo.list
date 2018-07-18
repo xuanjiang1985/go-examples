@@ -1,0 +1,10 @@
+MODULE                         VERSION
+18july                         -
+github.com/kevinburke/go.uuid  v1.2.0
+github.com/kr/pretty           v0.1.0
+github.com/kr/pty              v1.1.1
+github.com/kr/text             v0.1.0
+golang.org/x/text              v0.0.0-20170915032832-14c0d48ead0c
+gopkg.in/check.v1              v1.0.0-20180628173108-788fd7840127
+rsc.io/quote                   v1.5.3-pre1
+rsc.io/sampler                 v1.3.0
